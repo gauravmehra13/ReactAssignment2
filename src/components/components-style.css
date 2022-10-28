@@ -1,0 +1,78 @@
+body {
+ background-image: linear-gradient(180deg,
+      rgba(90, 185, 196, 1) 30%,
+      rgba(181, 23, 23, 0.474) 40%,
+      rgba(114, 81, 81, 0.119) 80%);
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+#container,
+.form {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-bottom: 100px;
+}
+
+.heading {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label,
+input {
+  font-size: 20px;
+}
+
+input[type="text"] {
+  line-height: 40px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: azure
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  padding: 10px;
+  width: 150px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: rgb(153, 209, 214);
+}
+
+input[type="submit"]:hover {
+  border: 2px solid black;
+  box-shadow: 8px 8px 8px grey;
+  background-color: azure;
+}
+
+#dataContainer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  border: 2px solid black;
+  width: 80vw;
+  height: fit-content;
+  background-color: black
+}
+
+.printed-data {
+  text-align: center;
+  width: 400px;
+  height: fit-content;
+  padding: 20px;
+  margin: 15px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: pink;
+  font-size: 20px;
+}
